@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    h1 {
+        font-family: monospace;
+    }
+
+    h2 {
+        font-family: cursive;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: wheat;
+        opacity: 75%;
+        border: 2px solid black;
+    }
+</style>
+
+<body class="bg-info">
+    <h2 class="text-center"><u>Weather Report</u></h2>
+    <p class="p-2">Hyderabad, India <br>
+        10/12/2023
+    </p>
+    <div id="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2 class="text-center text-light">Sunny</h2>
+                <img src="Images/sun-157126_640.png" height="200" alt="">
+
+            </div>
+            <div class="col-md-4">
+                <h1 class="text-center text-light mt-5">TEMPERATURE</h1>
+                <h1 class="text-center text-light">30<sup>°</sup>C</h1>
+            </div>
+            <div class="col-md-4">
+                <img src="Images/temp.jpg" height="100" alt="" class="mt-5">
+                <h4 class="text-light mt-4">HUMIDITY 60%</h4>
+            </div>
+            <div class="container">
+                <div>
+                    <h4 class="mt-3">MON <br><br><i class="fa-solid fa-cloud-showers-heavy"></i> <br>
+                        <br>24<sup>°</sup>C </h4>
+                </div>
+                <div>
+                    <h4 class="mt-3">Tue <br><br><i class="fa-solid fa-cloud-sun"></i> <br> <br>23<sup>°</sup>C </h4>
+                </div>
+                <div>
+                    <h4 class="mt-3">WED <br><br><i class="fa-solid fa-cloud-sun-rain"></i> <br> <br>26<sup>°</sup>C
+                    </h4>
+                </div>
+                <div>
+                    <h4 class="mt-3">THU <br><br><i class="fa-solid fa-cloud"></i> <br> <br>29<sup>°</sup>C </h4>
+                </div>
+                <div>
+                    <h4 class="mt-3">FRI <br><br><i class="fa-solid fa-cloud-showers-heavy"></i> <br>
+                        <br>25<sup>°</sup>C </h4>
+                </div>
+                <div>
+                    <h4 class="mt-3">SAT <br><br><i class="fa-solid fa-cloud-sun-rain"></i> <br> <br>29<sup>°</sup>C
+                    </h4>
+                </div>
+                <div>
+                    <h4 class="mt-3">SUN <br><br><i class="fa-solid fa-cloud-rain"></i> <br> <br>28<sup>°</sup>C </h4>
+                </div>
+            </div>
+</body>
+
+</html>
